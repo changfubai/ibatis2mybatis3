@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
  * @author changfu.bai@downjoy.com on 2018/8/21
  */
 @SuppressWarnings("unchecked")
-public class ConvertDaoImpl {
+public class Ibatis2Mybatus {
 
     private static final String TYPE_ALIAS = "typeAlias";
     private static final String TYPE_ALIASES = "typeAliases";
