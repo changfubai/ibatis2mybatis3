@@ -3,7 +3,7 @@
 
 ----------
 
-实习的公司后台采用的ibatis，老大让我重构成Mybatis，于是弄清楚了整个流程，梳理如下，并写好了[脚本-java代码](https://github.com/changfubai/ibatis2mybatis3)，自动处理daoImp.java、sqlMapConfig.xml、sqlMap.xml文件，使用时指定对应的包或单个文件的绝对路径即可(对应main中变量daoImplDirs、configXMLDirs、sqlMapXMLDirs)。部分业务处理需要手动修改或自行添加正则匹配。请按步骤食用~
+实习的公司后台采用的ibatis，老大让我重构成Mybatis，于是弄清楚了整个流程，梳理如下，并写好了[脚本-java代码](https://github.com/changfubai/ibatis2mybatis3/blob/master/src/main/java/com/changfubai/ibatis2Mybatis/Ibatis2Mybatus.java)，自动处理daoImp.java、sqlMapConfig.xml、sqlMap.xml文件，使用时指定对应的包或单个文件的绝对路径即可(对应main中变量daoImplDirs、configXMLDirs、sqlMapXMLDirs)。部分业务处理需要手动修改或自行添加正则匹配。请按步骤食用~
 
 ----------
 
